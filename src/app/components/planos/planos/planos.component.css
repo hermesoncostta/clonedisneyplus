@@ -1,0 +1,93 @@
+div.planos{
+    margin:0;
+    background-color: #040814;
+    padding-top: 20px;
+}
+
+div.planos h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+
+div.cards{
+    background-color: #040814;
+    margin: 0;
+    padding-top: 30px;
+    flex-direction: row;
+    display: flex;
+    width: 100% / 3;
+    justify-content: center;
+    padding: 80px;
+}
+
+div.card-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    height: 100%;
+    padding: 30px;
+}
+
+div.card-combo{
+    border-image: linear-gradient( #6421ff , transparent);
+    border-width: 2px;
+    border-style: solid;
+    border-image-slice: 1;
+    background-image: linear-gradient(#13092c, transparent);
+}
+
+div.card-combo span{
+    top: -15px;
+    left: -15px;
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: #40187f;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0,00,.2);
+    
+
+}
+
+
+div.card-section h3{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+
+div.card-section p{
+    max-width: 250px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+div.card-section button{
+    background-color: #6421ff;
+    padding: 15px 70px 15px 70px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+div.card3 p{
+    padding-bottom: 20px;
+}
+
+
+div.aviso p{
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+

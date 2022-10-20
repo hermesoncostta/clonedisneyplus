@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav li{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #010204;
+    list-style: none;
+    color: white;
+    font-size: 18;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    letter-spacing: 1px;
+}
+
+
+.home{
+    background: url("../../../../assets/images/original.jpg") no-repeat;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5.6vw;
+   
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    
+    
+}
+.headline h2{
+    display: flex;
+    justify-items:center;
+    margin-left: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+.home img{
+    height: 170px;
+    width: 100%;
+    padding-top: 30px;
+    justify-items: left;
+    margin-left: 50px;
+}
+
+
+.cta-button button{
+    padding: 20px 170px 20px 170px;
+    margin-top: 30px;
+    background-color: #6421ff;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 19px;
+    
+}
+
