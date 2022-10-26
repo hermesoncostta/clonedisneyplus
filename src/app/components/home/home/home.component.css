@@ -6,7 +6,8 @@ header{
     background-color: transparent;
     position: fixed;
     width: 100%;
-    
+    z-index: 1000;
+    transition: all 0.6s;
 }
 
 .nav li{
@@ -69,6 +70,24 @@ header{
     border-radius: 5px;
     border-style: none;
     font-size: 19px;
+    cursor: pointer;
     
 }
 
+
+header.sticky{
+    background: #040814;;
+}
+
+
+
+header.sticky div.logo img{
+    height: 100%;
+    width: 70px;
+    transition: all 0.6s;
+    margin-left: 30px;
+}
+
+header.stick ul.nav li.nav-assine{
+    display: none;
+}

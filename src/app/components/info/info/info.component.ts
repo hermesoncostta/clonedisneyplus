@@ -6,10 +6,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent implements OnInit {
+  panelOpenState = false;
+  step = 0;
 
-  constructor() { }
+  setStep(index: number) {
+    this.step = index;
+  }
+
+  nextStep() {
+    this.step++;
+  }
+
+  prevStep() {
+    this.step--;
+  }
+  constructor() {
+   
+   }
 
   ngOnInit(): void {
   }
 
 }
+
+
+
+
+

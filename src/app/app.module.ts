@@ -1,3 +1,5 @@
+import { FooterModule } from './components/footer/footer.module';
+import { InfoModule } from './components/info/info.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -27,7 +29,9 @@ import { PlanosModule } from './components/planos/planos.module';
     FilmesModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    PlanosModule
+    PlanosModule,
+    InfoModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

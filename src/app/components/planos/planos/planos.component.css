@@ -78,6 +78,7 @@ div.card-section button{
     margin-top: 10px;
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
 }
 
 div.card3 p{
